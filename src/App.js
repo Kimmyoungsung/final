@@ -20,6 +20,7 @@ const choice = {
 function App() {
   const [userSelect, setUserSelect] = useState(null);
   const [computerSelect, setcomputerSelect] = useState(null);
+  
 
   const play = (userChoice) => {
     setUserSelect(choice[userChoice]);
